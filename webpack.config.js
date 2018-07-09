@@ -62,6 +62,7 @@ module.exports = (options = {}) => ({
         port: 8010,
         proxy: {
             '/api/': {
+                //配置请求的后端服务器地址，用户开发环境
                 target: 'http://127.0.0.1:8080',
                 changeOrigin: true,
                 pathRewrite: {
