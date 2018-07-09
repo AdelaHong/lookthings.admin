@@ -2,15 +2,16 @@
 
 > 本项目是使用 Element UI ，通过 vue-cli 构建
 
-
-
 ## 环境
 
 ![npm](https://img.shields.io/npm/v/npm.svg)
+`npm >=6`
 
 ![node](https://img.shields.io/badge/node-%3E%3D6-brightgreen.svg)
 
-##结构说明
+`node >=6`
+
+## 结构说明
 
 ```
 ├── .idea
@@ -69,13 +70,13 @@ npm run dev
 npm run build
 ```
 
-##贡献者规范
+## 贡献者规范
 [git提交归档和git分支规范](./CONTRIBUTING.md)
 
 ## 行为准则
 
 [行为准则](./CODE_OF_CONDUCT.md)
 
-##开源声明
+## 开源声明
 
 [MIT](./LICENSE)
