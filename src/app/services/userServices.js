@@ -5,7 +5,7 @@ class UserServices extends Vue {
         super();
     }
     getUsers() {
-        return this.$http.get(this.$conf.target + '/user/getUser')
+        return this.$http.get(this.$conf.target + '/user/getUsers')
             .then(resp => resp.data)
     }
     addUser(userDo) {

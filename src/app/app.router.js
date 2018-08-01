@@ -7,6 +7,7 @@ import Users from '~/app/views/users.vue'
 import Roles from '~/app/views/roles.vue'
 import Perms from '~/app/views/permissions.vue'
 import Rabc from '~/app/views/rabc.vue'
+import Demo from '~/app/views/demo.vue'
 import Session from '~/app/services/sessionServices'
 Vue.use(Router)
 
@@ -31,7 +32,7 @@ const router = new Router({
                     component: Quick,
                     meta: {
                         bcrumd: ['平台状态'],
-                        requireAuth: true
+                        requireAuth: false
                     }
                 },
                 {
@@ -40,7 +41,7 @@ const router = new Router({
                     component: Users,
                     meta: {
                         bcrumd: ['用户列表'],
-                        requireAuth: true
+                        requireAuth: false
                     }
                 },
                 {
@@ -49,7 +50,7 @@ const router = new Router({
                     component: Roles,
                     meta: {
                         bcrumd: ['角色列表'],
-                        requireAuth: true
+                        requireAuth: false
                     }
                 },
                 {
@@ -58,7 +59,7 @@ const router = new Router({
                     component: Perms,
                     meta: {
                         bcrumd: ['权限列表'],
-                        requireAuth: true
+                        requireAuth: false
                     }
                 },
                 {
@@ -67,7 +68,7 @@ const router = new Router({
                     component: Rabc,
                     meta: {
                         bcrumd: ['对应关系'],
-                        requireAuth: true
+                        requireAuth: false
                     }
                 }
             ]
