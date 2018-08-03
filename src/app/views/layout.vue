@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     hasNavbar() {
-      const $route = this.$route
+      const $route = this.$route;
       return $route.meta && $route.meta.navbar && $route.meta.navbar.length > 0
     }
   },
