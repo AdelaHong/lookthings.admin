@@ -67,7 +67,7 @@
             </el-form>
             <span slot="footer" class="dialog-footer">
         <el-button @click="closeDialog">取 消</el-button>
-        <el-button type="primary" @click="confirmDialog">确 定</el-button>
+        <el-button type="primary" @click="confirmDialog">确 定d</el-button>
       </span>
         </el-dialog>
         <el-dialog title="是否删除？" :visible.sync="isDelConfirmDialog" width="30%" center>
